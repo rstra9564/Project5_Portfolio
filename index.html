@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!--Riley Strasser 5/5/25-->
+<html lang="en">
+  <head>
+    <title>Riley Strasser Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./src/styles.scss" />
+    <script type="module" src="./src/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" crossorigin="anonymous" />
+  </head>
+  <!--Main Navigation-->
+<body class="p-4">
+<header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+<div class="container navbar-container">
+
+  <!-- Hamburger (on left in mobile) -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Logo -->
+  <a class="navbar-brand" href="#">
+    <img src="src/images/1.png" alt="Logo" style="height: 40px;">
+  </a>
+
+  <!-- Navigation Links -->
+  <div class="collapse navbar-collapse custom-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Examples">Examples</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!-- Navbar -->
+<div id="Home">
+<!-- Background image -->
+<div id="intro" class="bg">
+<div class="container-fluid d-flex align-items-center justify-content-center text-center bg-black bg-opacity-25 h-100">
+  <div class="jumbotron">
+<div class="text-white">
+<h1 class="mb-3">Welcome to my Portfolio.</h1>
+<h5 class="mb-4">Take a look at my work & Experience!</h5>
+  <a href="#Projects"><button class="btn btn-outline-light">Projects</button></a>
+     </div>
+    </div>
+  </div>
+</div>
+</header>
+<!--Main layout-->
+<main class="mt-0">
+<div class="container-fluid bg-black">
+<div id="About">
+  <br>
+  <br>
+  <!--Section: Content-->
+  <section class="py-5 bg-black">
+    <div class="container">
+      <div class="card shadow-lg border-0">
+        <div class="row g-0 align-items-center bg-black">
+          
+          <!-- Image Section -->
+          <div class="col-md-5">
+            <img src="src/images/Personal.png" alt="Your photo" class="img-fluid rounded-start w-100 h-100 object-fit-cover bg-black">
+          </div>
+          
+          <!-- Text Section -->
+          <div class="card col-md-7 bg-dark text-white">
+            <div class="card-body p-4">
+              <h2 class="card-title mb-2">About Me</h2>
+              <p class="card-text lead">
+                Hi, I'm <strong>Riley Strasser</strong>, Driven by a passion for problem-solving and a fascination with the power of technology, I am a dedicated software developer with three years of hands-on coding experience, currently pursuing a Bachelor's degree in Computer Science through Boise State University.
+              </p>
+              <hr>
+              <p class="card-text">
+                I believe that advanced studies will equip me with the knowledge and skills necessary to tackle complex challenges. With a solid foundation in front-end and back-end technologies, a commitment to agile methodologies, and a strong desire to learn and grow. I am eager to contribute my skills and passion to innovative projects and continue my journey towards becoming a leading expert in the field of computer 
+              </p>
+              <a href="#Contact"><button class="btn btn-outline-dark">Get in touch</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section: Content-->
+  <div id="Projects">
+    <br>
+    <br>
+    <br>
+  <section class="text-center text-white">
+    <h4 class="mb-5"><strong>Projects</strong></h4>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+            <img src="src/images/musicbootstrap.png" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">BootStrap 5 Website</h5>
+            <p class="card-text">
+             This project called Music Center, is intended for purchasing musical instruments as well as contacting for lessons and training!
+            </p>
+            <button href="#!" class="btn btn-dark" data-mdb-ripple-init>View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+            <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">BootStrap 5 Website </h5>
+            <p class="card-text">
+              A project focused towards building a place for a musician to display their content, merchandise, as well as connecting their socials. 
+            </p>
+            <button href="#!" class="btn btn-dark" data-mdb-ripple-init>View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+            <img src="src/images/trailzzreact.png" class="img-fluid">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">React App</h5>
+            <p class="card-text">
+              This project is a simple React App called TRAILZZ, focused towards providing wilderness expertise!
+            </p>
+            <button href="https://lucent-crisp-8db681.netlify.app/" class="btn btn-dark" data-mdb-ripple-init>View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+          <img src="src/images/VueApp.png" class="img-fluid">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">VUE App</h5>
+          <p class="card-text">
+            This project is a simple Vue App called PC Madness. Built to sell pc parts, including an add to cart feature and checkout abilities. 
+          </p>
+          <button href="#!" class="btn btn-dark" data-mdb-ripple-init>View</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card">
+      <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="src/images/Bootstrapbobs.png" class="img-fluid">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">BootStrap 5 Website</h5>
+        <p class="card-text">
+          This project is a BootStrap 5 website called Whaacky Bob's. Built for a car dealership, It provides an inventory and featured vehicles!
+        </p>
+        <button href="#!" class="btn btn-dark" data-mdb-ripple-init>View</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 mb-4">
+  <div class="card">
+    <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+      <img src="src/images/ReactApp.png" class="img-fluid">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">React App</h5>
+      <p class="card-text">
+        This project is a simple React App called WRKHRD, focused towards browsing and purchasing workout apparel from gear to accessories!
+      </p>
+      <button href="#!" class="btn btn-dark" data-mdb-ripple-init>View</button>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+  <div id="Skills"> 
+  <br>
+  <br>
+  <section class="py-5">
+	<div class="container">
+		<div class="text-center">
+			<h2 class="display-5 fw-bold mb-3 text-white">Skills</h2>
+		</div>
+		<div class="row gx-5">
+			<div class="col-md-6">
+				<div class="lead text-center text-md-start text-white">
+					<p>My technical foundation is built upon a diverse skillset, encompassing both front-end and back-end technologies. I am proficient in using many JS Frameworks including, Bootstrap, Vue, and React. Beyond the front-end, I possess a solid understanding of back-end development principles, with experience in C#.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="lead text-center text-md-start text-white">
+					<p> My commitment to best practices extends beyond technical skills. I am a Scrum Certified professional. This certification reflects my ability to work effectively within a team, contribute to sprint planning, and adapt to evolving requirements, ensuring projects are delivered efficiently and effectively.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div id="Examples">
+  <br>
+  <br>
+  <br>
+<section class="py-5 bg-black text-white">
+  <div class="container">
+    <h2 class="mb-5 text-center">Examples</h2>
+
+    <!-- Example 1 -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="src/images/bootstrapbobsex.png"
+        alt="Example 1" 
+        class="img-fluid rounded shadow clickable-image" 
+        data-bs-toggle="modal" 
+        data-bs-target="#imageModal1" 
+        style="cursor: zoom-in;"  />
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark border-0">
+      <div class="modal-body p-0">
+      <img src="src/images/bootstrapbobsex.png" 
+           alt="Full View of Example 1" 
+           class="img-fluid w-100 rounded" />
+    </div>
+  </div>
+</div>
+</div>
+  <div class="col-md-6">
+    <h4 class="mb-3">Filter Tab Logic</h4>
+      <p>This project showcases a responsive inventory filtering tab to sift through different items based on their attributes.</p>
+    </div>
+  </div>
+
+    <!-- Example 2 -->
+    <div class="row mb-5 align-items-center">
+    <div class="col-md-6">
+      <div class="ratio ratio-16x9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3yCPhGNBIhU?si=jx3pSZv7ADLpzcq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h4 class="mb-3">Filter tab In Action</h4>
+      <p>This video displays the filtering tab in action from my project Whaacky Bob's!</p>
+    </div>
+  </div>
+    <!-- Example 3 -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <div class="ratio ratio-16x9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cFlbX3mt790?si=_ve7jfut16dxOE42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="mb-3">Add To Cart Checkout Feature</h4>
+        <p>This video shows my project PC MADNESS in action, selecting an item to add to cart and a simple checkout process.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- Background Wrapper -->
+<div id="intro" class="bg position-relative">
+<!-- Black semi-transparent overlay -->
+<div class="position-absolute top-0 start-0 w-100 h-100 bg-black bg-opacity-25" style="z-index: 1;"></div>
+
+<!-- Contact Section -->
+<div id="Contact" class="position-relative" style="z-index: 2;">
+  <div class="container-fluid d-flex align-items-center justify-content-center text-center py-5 min-vh-100">
+    <section class="mb-0 w-100">
+      <h4 class="mb-5 text-center text-white"><strong>Contact</strong></h4>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6 text-white">
+          <form>
+            <!-- First and Last Name -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example1" class="form-control" />
+                  <label class="form-label" for="form3Example1">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="form3Example2" class="form-control" />
+                  <label class="form-label" for="form3Example2">Last name</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control" />
+              <label class="form-label" for="form3Example3">Email address</label>
+            </div>
+
+            <!-- Password -->
+            <div class="form-outline mb-4">
+              <input type="message" id="form3Example4" class="form-control" />
+              <label class="form-label" for="form3Example4">Message</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
+              <label class="form-check-label" for="form2Example3">
+                Subscribe for notifications on new/upcoming projects!
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4"><strong>Sign up</strong></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</div>
+<footer class="mt-5">
+<div class="text-center py-4 bg-dark text-white">
+  <p class="mb-3">Follow my work on Github, LinkedIn, and YouTube!</p>
+  <div class="d-flex justify-content-center flex-wrap gap-4">
+    <a href="https://github.com/rstra9564/rstra9564.github.io" target="_blank" class="text-white fs-3">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/riley-strasser-603087366/" target="_blank" class="text-white fs-3">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.youtube.com/@rileystrasser" target="_blank" class="text-white fs-3">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Copyright -->
+<div class="text-center py-3 bg-black text-white">
+  &copy; 2025 Riley Strasser. All rights reserved.
+</div>
+</footer>
+</div>
+</div>
+</main>
+</body>
+</html>
